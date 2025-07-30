@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React Demo",
+  "name": "React Fundamentals Demo",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAARVBMVEVHcEwAreIAqd4AqNsArOEArOEArN8ArOEArOABq+AArOEArOECptsCreIArOEArOAEcagArOEAqNwBerAAhLoBea8AkskYQRNFAAAAF3RSTlMAnHUOwP8asoPO4/E6+GYn/5NN0f+g+r7cJAYAAACbSURBVHgBpZFFAsMwDMAcUCG44v9/Or7VGeoqs+VPjHVt6cF0TdsDxr2yDO3KYyCmhg0kC70uO7K4sZVc6CUBpdE2WUrE6IVHz7W03tjAeKugWvds6NXKI/VRn6NLJ6aHm49yOeUgUlU3r5vBzaqTfXcFD0l9jJUZQqdebxSLfp5KmFs/6zIBJtFwGfBVdTXDmEQn0ydpkTr5mgt6BAVJZ4nWegAAAABJRU5ErkJggg==",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
-      "src": "logo192.png",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAARVBMVEVHcEwAreIAqd4AqNsArOEArOEArN8ArOEArOABq+AArOEArOECptsCreIArOEArOAEcagArOEAqNwBerAAhLoBea8AkskYQRNFAAAAF3RSTlMAnHUOwP8asoPO4/E6+GYn/5NN0f+g+r7cJAYAAACbSURBVHgBpZFFAsMwDMAcUCG44v9/Or7VGeoqs+VPjHVt6cF0TdsDxr2yDO3KYyCmhg0kC70uO7K4sZVc6CUBpdE2WUrE6IVHz7W03tjAeKugWvds6NXKI/VRn6NLJ6aHm49yOeUgUlU3r5vBzaqTfXcFD0l9jJUZQqdebxSLfp5KmFs/6zIBJtFwGfBVdTXDmEQn0ydpkTr5mgt6BAVJZ4nWegAAAABJRU5ErkJggg==",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAARVBMVEVHcEwAreIAqd4AqNsArOEArOEArN8ArOEArOABq+AArOEArOECptsCreIArOEArOAEcagArOEAqNwBerAAhLoBea8AkskYQRNFAAAAF3RSTlMAnHUOwP8asoPO4/E6+GYn/5NN0f+g+r7cJAYAAACbSURBVHgBpZFFAsMwDMAcUCG44v9/Or7VGeoqs+VPjHVt6cF0TdsDxr2yDO3KYyCmhg0kC70uO7K4sZVc6CUBpdE2WUrE6IVHz7W03tjAeKugWvds6NXKI/VRn6NLJ6aHm49yOeUgUlU3r5vBzaqTfXcFD0l9jJUZQqdebxSLfp5KmFs/6zIBJtFwGfBVdTXDmEQn0ydpkTr5mgt6BAVJZ4nWegAAAABJRU5ErkJggg==",
       "type": "image/png",
       "sizes": "512x512"
     }
