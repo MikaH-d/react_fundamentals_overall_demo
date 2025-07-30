@@ -11,6 +11,7 @@ A comprehensive demonstration of React fundamentals including components, state 
 - [Overview](#overview)
 - [Demo Sections](#demo-sections)
 - [Technologies Used](#technologies-used)
+- [Updating the Live Demo](#updating-the-live-demo)
 - [Learning Objectives](#learning-objectives)
 
 ## 🎯 Overview
@@ -61,6 +62,35 @@ Learn different ways to conditionally render components:
 - **JavaScript (ES6+)** - Modern JavaScript features
 - **CSS3** - Styling and responsive design
 - **GitHub Pages** - Deployment platform
+
+## 🔄 Updating the Live Demo
+
+The live demo is automatically deployed from the `gh-pages` branch, not directly from the `main` branch. To update the live website with your latest changes:
+
+### **How It Works:**
+- **Main Branch**: Contains your source code and development files
+- **gh-pages Branch**: Contains only the built production files that GitHub Pages serves
+- **Live Website**: Updates only when the `gh-pages` branch is updated
+
+### **To Update the Live Demo:**
+
+1. **Make your changes** in the `main` branch (code, styling, content, etc.)
+2. **Commit and push** your changes to the `main` branch
+3. **Deploy to GitHub Pages**:
+   ```bash
+   npm run deploy
+   ```
+
+### **What happens when you deploy:**
+- ✅ Builds your app from the current `main` branch
+- ✅ Takes the optimized files from the `build` folder
+- ✅ Pushes them to the `gh-pages` branch (overwrites previous version)
+- ✅ GitHub Pages automatically updates the live site within a few minutes
+
+### **Important Notes:**
+- The live website does **NOT** automatically update when you push to `main`
+- You **must** run `npm run deploy` to trigger an update to the live demo
+- Changes will be visible at `https://MikaH-d.github.io/react_fundamentals_overall_demo/` after deployment
 
 ## 🎓 Learning Objectives
 
