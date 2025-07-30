@@ -1,13 +1,66 @@
-body {
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700&display=swap');
+
+/* CSS Custom Properties - Global Design System */
+:root {
+  /* Colors */
+  --color-primary: #B11A21;
+  --color-secondary: #C41E3A;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-gray-dark: #333333;
+  --color-gray-medium: #666666;
+  --color-gray-light: #F5F5F5;
+  
+  /* Typography */
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-heading: 'Montserrat', sans-serif;
+  
+
+}
+
+/* Global Reset and Base Styles */
+* {
+  text-align: center;
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  background-color: var(--color-gray-light);
+  color: var(--color-gray-dark);
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Global Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  /* margin-bottom: 1vh; */
 }
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+
+a {
+  color: var(--color-primary);
+  font-size: x-small;
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+
