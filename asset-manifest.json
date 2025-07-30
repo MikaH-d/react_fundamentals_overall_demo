@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_fundamentals_overall_demo/static/css/main.f8bb6d9b.css",
+    "main.js": "/react_fundamentals_overall_demo/static/js/main.23631160.js",
+    "index.html": "/react_fundamentals_overall_demo/index.html",
+    "main.f8bb6d9b.css.map": "/react_fundamentals_overall_demo/static/css/main.f8bb6d9b.css.map",
+    "main.23631160.js.map": "/react_fundamentals_overall_demo/static/js/main.23631160.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8bb6d9b.css",
+    "static/js/main.23631160.js"
+  ]
+}
